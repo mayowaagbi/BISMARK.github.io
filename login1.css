@@ -1,0 +1,37 @@
+.login-container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #1F1FFF;
+    
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label, input {
+    margin-bottom: 1px;
+  }
+ body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 63%, rgba(0,212,255,1) 94%);
+ }  
+ .login-container input{
+    width: 250px;
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    word-wrap: normal;
+ }
+ .login-container input :hover{
+    background: rgb(11,20,120);
+    background: linear-gradient(90deg, rgba(11,20,120,1) 32%, rgba(11,34,159,1) 50%, rgba(12,26,108,1) 66%);
+ }
+ 
+ 
